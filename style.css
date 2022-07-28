@@ -8,7 +8,6 @@
     left: 0;
     background: #000;
     opacity: 0.6;
-
 }
 .carousel-img{
     height: 570px;
@@ -20,4 +19,26 @@
 .font-size1{
     font-size: 45px;
     font-weight: 500;
+}
+.explore-text-background{
+    background-color: #F4FAFD;
+}
+@media only screen and (max-width:992px){
+    .ellipsis-text{
+        width: 100%;
+    }
+    .ellipsis{
+        width: 70%; 
+     text-overflow:ellipsis;
+     overflow:hidden;
+     
+     display: -webkit-box !important;
+     -webkit-line-clamp: 4;
+     -webkit-box-orient: vertical;
+     white-space: normal;
+    }
+    .show{
+        bottom: 16px;
+        right: 10%;
+    }
 }
