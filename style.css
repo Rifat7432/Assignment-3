@@ -23,6 +23,9 @@
 .explore-text-background{
     background-color: #F4FAFD;
 }
+.icons-color{
+    color: gold;
+}
 @media only screen and (max-width:992px){
     .ellipsis-text{
         width: 100%;
