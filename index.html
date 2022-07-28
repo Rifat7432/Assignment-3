@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Programming-Hero</title>
     <!-- font awesome link -->
     <script
       src="https://kit.fontawesome.com/e9db1868f5.js"
@@ -20,7 +20,7 @@
       <!-- navbar start -->
       <nav class="navbar navbar-expand-lg">
         <div class="container">
-          <a class="navbar-brand fs-1 fw-bold" href="#">Pro Edu</a>
+          <a class="navbar-brand fs-2 fw-bold" href="#">PROGRAMMING HERO</a>
           <button
             class="btn btn-outline-primary fs-5 fw-bold ms-auto me-3 d-none d-md-inline d-lg-none"
             type="submit"
@@ -46,7 +46,7 @@
                 <a
                   class="nav-link active fs-5 fw-semibold p-3 text-secondary"
                   aria-current="page"
-                  href="#"
+                  href="#Home"
                   >Home</a
                 >
               </li>
@@ -54,7 +54,7 @@
                 <a
                   class="nav-link active fs-5 fw-semibold p-3 text-secondary"
                   aria-current="page"
-                  href="#"
+                  href="#courses"
                   >Courses</a
                 >
               </li>
@@ -62,7 +62,7 @@
                 <a
                   class="nav-link active fs-5 fw-semibold p-3 text-secondary"
                   aria-current="page"
-                  href="#"
+                  href="#Deals"
                   >Deals</a
                 >
               </li>
@@ -70,7 +70,7 @@
                 <a
                   class="nav-link active fs-5 fw-semibold p-3 text-secondary"
                   aria-current="page"
-                  href="#"
+                  href="#Success"
                   >Success</a
                 >
               </li>
@@ -78,7 +78,7 @@
                 <a
                   class="nav-link active fs-5 fw-semibold p-3 text-secondary"
                   aria-current="page"
-                  href="#"
+                  href="#footer"
                   >About</a
                 >
               </li>
@@ -86,7 +86,7 @@
                 <a
                   class="nav-link active fs-5 fw-semibold p-3 text-secondary"
                   aria-current="page"
-                  href="#"
+                  href="#Register"
                   >Register</a
                 >
               </li>
@@ -102,42 +102,20 @@
         </div>
       </nav>
       <!-- navbar end -->
+
       <!-- carousel section start -->
       <section>
-        <div class="container mt-4">
+        <div class="container mt-4" id="Home">
           <div
-            id="carouselExampleCaptions"
+            id="carouselExampleInterval"
             class="carousel slide"
-            data-bs-ride="false"
+            data-bs-ride="carousel"
           >
-            <div class="carousel-indicators">
-              <button
-                type="button"
-                data-bs-target="#carouselExampleCaptions"
-                data-bs-slide-to="0"
-                class="active"
-                aria-current="true"
-                aria-label="Slide 1"
-              ></button>
-              <button
-                type="button"
-                data-bs-target="#carouselExampleCaptions"
-                data-bs-slide-to="1"
-                aria-label="Slide 2"
-              ></button>
-              <button
-                type="button"
-                data-bs-target="#carouselExampleCaptions"
-                data-bs-slide-to="2"
-                aria-label="Slide 3"
-              ></button>
-            </div>
             <div class="carousel-inner">
-              <div class="carousel-item active">
+              <div class="carousel-item active" data-bs-interval="10000">
                 <div class="row">
                   <div class="col-12">
                     <img
-                      class="img-fluid"
                       src="./images/cover/cover-1.png"
                       class="d-block w-100 img-fluid carousel-img"
                       alt="..."
@@ -147,9 +125,7 @@
                     >
                       <h1 class="font-size">Get Started Digital Learning</h1>
                       <p>
-                        It is a long established fact that a reader will be
-                        distracted by the readable content of a page when
-                        looking at its layout.
+                       Let's learn and build your own future 
                       </p>
                       <button
                         class="btn btn-primary fs-5 fw-semibold px-3 py-2"
@@ -160,7 +136,7 @@
                   </div>
                 </div>
               </div>
-              <div class="carousel-item">
+              <div class="carousel-item" data-bs-interval="2000">
                 <div class="row">
                   <div class="col-12">
                     <img
@@ -173,9 +149,7 @@
                     >
                       <h1 class="font-size">Get Started Digital Learning</h1>
                       <p>
-                        It is a long established fact that a reader will be
-                        distracted by the readable content of a page when
-                        looking at its layout.
+                        Let's learn and build your own future 
                       </p>
                       <button
                         class="btn btn-primary fs-5 fw-semibold py-2 px-3"
@@ -187,7 +161,7 @@
                 </div>
               </div>
               <div class="carousel-item">
-                <div class="row rounded-3">
+                <div class="row">
                   <div class="col-12">
                     <img
                       src="./images/cover/cover-3.jpg"
@@ -199,9 +173,7 @@
                     >
                       <h1 class="font-size">Get Started Digital Learning</h1>
                       <p>
-                        It is a long established fact that a reader will be
-                        distracted by the readable content of a page when
-                        looking at its layout.
+                        Let's learn and build your own future 
                       </p>
                       <button
                         class="btn btn-primary fs-5 fw-semibold py-2 px-3"
@@ -216,7 +188,7 @@
             <button
               class="carousel-control-prev"
               type="button"
-              data-bs-target="#carouselExampleCaptions"
+              data-bs-target="#carouselExampleInterval"
               data-bs-slide="prev"
             >
               <span
@@ -228,7 +200,7 @@
             <button
               class="carousel-control-next"
               type="button"
-              data-bs-target="#carouselExampleCaptions"
+              data-bs-target="#carouselExampleInterval"
               data-bs-slide="next"
             >
               <span
@@ -241,27 +213,28 @@
         </div>
       </section>
       <!-- carousel section end -->
+
+    
     </header>
 
     <main>
       <!-- courses section start -->
       <section>
-        <div class="container mt-5">
+        <div class="container mt-5" id="courses">
           <div class="row">
             <div class="col-12 mx-auto text-center w-50 mb-5">
               <h1 class="font-size1">Discover Our Popular Courses</h1>
               <p>
-                It is a long established fact that a reader will be distracted
-                by the readable content of a page when looking at its layout.
+               Choose the  future you want to be. 
               </p>
             </div>
           </div>
           <div class="row gx-4 gy-4">
             <div class="col-lg-6 col-12">
               <div
-                class="d-flex flex-column flex-md-row flex-lg-row align-items-center justify-content-center shadow-sm"
+                class="d-flex flex-column flex-md-row flex-lg-row align-items-center justify-content-center shadow-sm body-height"
               >
-                <div class="mb-4 mb-md-0 courses-div-width">
+                <div class="mb-4 mb-md-0 img-width courses-div-width">
                   <img
                     class="img-fluid w-100 h-100"
                     src="./images/course/course-1.png"
@@ -272,8 +245,7 @@
                 <div class="ps-3">
                   <h5 class="text-secondary">Fundamental Of UI/UX Design</h5>
                   <p>
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card.
+                    User experience (UX) focuses on having a deep understanding of users, what they need, their abilities, and also their limitations. 
                   </p>
                   <p class="text-primary">Price : 20$</p>
                 </div>
@@ -281,9 +253,9 @@
             </div>
             <div class="col-lg-6 col-12">
               <div
-                class="d-flex flex-column flex-md-row flex-lg-row align-items-center justify-content-center shadow-sm"
+                class="d-flex flex-column flex-md-row flex-lg-row align-items-center justify-content-center shadow-sm body-height"
               >
-                <div class="mb-4 mb-md-0 courses-div-width">
+                <div class="mb-4 mb-md-0 img-width courses-div-width">
                   <img
                     class="img-fluid w-100 h-100"
                     src="./images/course/course-2.png"
@@ -293,8 +265,7 @@
                 <div class="ps-3">
                   <h5 class="text-secondary">Javascript Basic to advanced</h5>
                   <p>
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card.
+                    It is a very powerful client-side scripting language that makes your webpage more lively and interactive
                   </p>
                   <p class="text-primary">Price : 20$</p>
                 </div>
@@ -303,9 +274,9 @@
 
             <div class="col-lg-6 clo-12">
               <div
-                class="d-flex flex-column flex-md-row flex-lg-row align-items-center justify-content-center shadow-sm"
+                class="d-flex flex-column flex-md-row flex-lg-row align-items-center justify-content-center shadow-sm body-height"
               >
-                <div class="mb-4 mb-md-0 courses-div-width">
+                <div class="mb-4 mb-md-0 img-width courses-div-width">
                   <img
                     class="img-fluid w-100 h-100"
                     src="./images/course/course-3.png"
@@ -315,8 +286,7 @@
                 <div class="ps-3">
                   <h5 class="text-secondary">Fullstack Web Development</h5>
                   <p>
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card.
+                    A full stack web developer is a person who can develop both client and server software.
                   </p>
                   <p class="text-primary">Price : 20$</p>
                 </div>
@@ -324,9 +294,9 @@
             </div>
             <div class="col-lg-6 col-12">
               <div
-                class="d-flex flex-column flex-md-row flex-lg-row align-items-center justify-content-center shadow-sm"
+                class="d-flex flex-column flex-md-row flex-lg-row align-items-center justify-content-center shadow-sm body-height"
               >
-                <div class="mb-4 mb-md-0 courses-div-width">
+                <div class="mb-4 mb-md-0 img-width courses-div-width">
                   <img
                     class="img-fluid w-100 h-100"
                     src="./images/course/course-4.png"
@@ -336,8 +306,7 @@
                 <div class="ps-3">
                   <h5 class="text-secondary">Digital Marketing</h5>
                   <p>
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card.
+                    Digital marketing is the promotion of brands to connect with potential customers using the internet and other forms of digital communication
                   </p>
                   <p class="text-primary">Price : 20$</p>
                 </div>
@@ -346,9 +315,9 @@
 
             <div class="col-lg-6 col-12">
               <div
-                class="d-flex flex-column flex-md-row flex-lg-row align-items-center justify-content-center shadow-sm"
+                class="d-flex flex-column flex-md-row flex-lg-row align-items-center justify-content-center shadow-sm body-height"
               >
-                <div class="mb-4 mb-md-0 courses-div-width">
+                <div class="mb-4 mb-md-0 img-width courses-div-width">
                   <img
                     class="img-fluid w-100 h-100"
                     src="./images/course/course-5.png"
@@ -358,8 +327,7 @@
                 <div class="ps-3">
                   <h5 class="text-secondary">Photography Basic Rules</h5>
                   <p>
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card.
+                    The golden ratio is a ratio of approximately 1.618 to 1. It has been used for centuries by artists, architects, and musicians
                   </p>
                   <p class="text-primary">Price : 20$</p>
                 </div>
@@ -367,9 +335,9 @@
             </div>
             <div class="col-lg-6 col-12">
               <div
-                class="d-flex flex-column flex-md-row flex-lg-row align-items-center justify-content-center shadow-sm"
+                class="d-flex flex-column flex-md-row flex-lg-row align-items-center justify-content-center shadow-sm body-height"
               >
-                <div class="mb-4 mb-md-0 courses-div-width">
+                <div class="mb-4 mb-md-0 img-width  courses-div-width">
                   <img
                     class="img-fluid w-100 h-100"
                     src="./images/course/course-6.png"
@@ -379,8 +347,7 @@
                 <div class="ps-3">
                   <h5 class="text-secondary">Motion Graphics</h5>
                   <p>
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card.
+                    Motion graphics are a way to communicate with the viewer, and add depth to the story. 
                   </p>
                   <p class="text-primary">Price : 20$</p>
                 </div>
@@ -412,11 +379,8 @@
               <h2 class="fw-bold fs-1">Explore The elearning Institute</h2>
               <div class="ellipsis-text d-flex position-relative">
                 <p class="ellipsis d-block">
-                  There are many variations of passages of Lorem Ipsum
-                  available, but the majority have suffered alteration in some
-                  form, by injected humour, or randomised words which don't look
-                  even slightly believable. If you are going to use a passage of
-                  Lorem Ipsum, you need to be sure .
+                  Online reviews of Programming Hero are generally positive, with most users recommending it as a resource for beginners. In general, Sitejabber reviewers felt that Programming Hero was a great free resource for beginners learning HTML, CSS, and JavaScript.Jun 29, 2020
+
                 </p>
                 <span
                   class="text-primary d-lg-none fw-bolder position-absolute show"
@@ -424,8 +388,7 @@
                 >
               </div>
               <p class="d-none d-lg-block">
-                Anything embarrassing hidden in the middle of text. All the
-                Lorem Ipsum generators on the Internet tend to repeat predefined
+                without any doubt. If you want a web developer and knowledge is zero then this website is very helpful to you. In this website you can learn all designing,database and static and dyanmic website creation. Programming Hero have its own css and jQuery library that is very short and easy to use
               </p>
               <div
                 class="d-flex flex-no flex-md-wrap align-items-center justify-content-lg-around my-4"
@@ -455,7 +418,7 @@
       <!-- Explore section end -->
       <!-- register now section start -->
       <section>
-        <div class="container bg-primary rounded mt-5">
+        <div class="container bg-primary rounded mt-5"id="Register">
           <div class="row">
             <div
               class="col-12 col-lg-6 text-white text-center p-5 my-auto mx-auto"
@@ -540,14 +503,13 @@
       <!-- register now section end -->
       <!-- Meet Our Students section start -->
       <section>
-        <div class="container">
+        <div class="container"id="Success">
           <div class="row mt-5 mb-4">
             <div class="col-12 text-center text-md-start">
               <div class="w-50 mx-auto mx-md-0">
                 <h2>Meet Our Successful Students</h2>
                 <p>
-                  It is a long established fact that a reader will be distracted
-                  by the readable content of a page when looking at its layout.
+                some of them who have received jobs from different places, have been given below
                 </p>
               </div>
             </div>
@@ -647,11 +609,7 @@
                   </div>
                 </div>
                 <p>
-                  There are many variations of passages of Lorem Ipsum
-                  available, but the majority have suffered alteration in some
-                  form, by injected humour, or randomised words which don't look
-                  even slightly believable. If you are going to use a passage of
-                  Lorem.
+                  i have been trying to get into Software /Web Development sector for a long time but couldn't , because it is quite difficult to learn and maintain that consistency if you are learning alone . This Course helped me a lot to understand development process in web development and build real world projects which made my interviews easy and comfortable .
                 </p>
                 <div class="d-flex py-3">
                   <img
@@ -679,11 +637,7 @@
                   </div>
                 </div>
                 <p>
-                  There are many variations of passages of Lorem Ipsum
-                  available, but the majority have suffered alteration in some
-                  form, by injected humour, or randomised words which don't look
-                  even slightly believable. If you are going to use a passage of
-                  Lorem.
+                  Programming Hero has helped me in many ways to develop my career. They taught me how to work professionally in the programming sector. How to learn and achieve by working hard. I will always be grateful to Jhangkar Mahbub Bhaiya and the programming hero team. The decision to take a course in programming hero is the best decision of my life
                 </p>
                 <div class="d-flex py-3">
                   <img
@@ -711,8 +665,7 @@
             >
               <h1>Frequently Asked Questions</h1>
               <p>
-                It is a long established fact that a reader will be distracted
-                by the readable content of a page when looking at its layout.
+                Usually beginners have some common question.We have tried to answer some of them.
               </p>
               <div class="mt-5 w-100">
                 <div class="accordion" id="accordionPanelsStayOpenExample">
@@ -845,7 +798,7 @@
       <!-- Asked Questions section end -->
       <!-- Trusted companies section start -->
       <section>
-        <div class="container mt-5 d-none d-lg-block">
+        <div class="container mt-5 d-none d-lg-block" id="Deals">
           <div class="row">
             <div
               class="col-12 d-flex align-items-center justify-content-center"
@@ -892,10 +845,10 @@
       <!-- Trusted companies section end -->
     </main>
     <footer>
-      <div class="container-fluid bg-dark text-white">
+      <div class="container-fluid bg-dark text-white" id="footer">
         <div class="row text-center py-5">
           <div class="col-4 offset-4">
-            <h1>Pro Edu</h1>
+            <h1>PROGRAMMING HERO</h1>
             <p>Office 41, Zawaya Buildin, Ghala Muscat, Sultanate of Oman</p>
             <p>Privacy Policy | Terms of use</p>
             <div class="d-flex align-items-center justify-content-center">
